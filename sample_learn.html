@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+  
+  
+  <style type="text/css">
+
+  .hero-unit{
+    display: table;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("learning_bg.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+
+  }
+
+  .text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+  }
+  .hero-unit-primary-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+  }
+  .hero-unit-secondary-text{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .butt{
+    background-color: #4CAF50;
+  }
+  .input-group
+  {
+    width: 100%
+  }
+  .button
+  {
+    color: #808080;
+  }
+  .btn-secondary:hover {
+  color: #fff;
+  background-color: #ADD8E6;
+}
+.create{
+  border-radius: 24px; 
+}
+img
+{
+  width: 30%;
+    height: 30%;
+}
+    .top-right {
+    position: absolute;
+    top: 40px;
+    left: 1300px;
+    size: 50%;
+}
+.fa-star,.fa-star-o{
+  color:orange;
+}
+.rating{
+  width: 50%;
+  float:left;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+</style>
+</head>
+<body>
+
+  <section style="margin-bottom: 100px;">
+
+    <div class="hero-unit">
+      <div class="top-right">
+            <img src="profile_icon.png" class="img-circle img-responsive"  alt="profile icon">
+          </div>
+      <div class="text-vertical-center">
+        <div class="container">
+          
+          <h1 class="hero-unit-primary-text ">LEARNING</h1>
+          <br>
+          <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-12">
+             <div class="input-group">
+              <input type="text" class="form-control form-center" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary butt btn-md" type="button">Go!</button>
+              </span>
+            </div>
+            <br>
+            <div class="container vertical-center-row">
+              <div class="btn-group">
+                <h2>FILTER BY :  </h2>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">SUBJECT
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+              </div>
+
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">GRADE
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+              </div>
+
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">FACULTY
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+              </div>
+
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">SCHOOL
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+              </div>
+
+              <div class="col-sm-3"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="align-bottom">
+            <button type="button" class="btn create btn-secondary">CREATE NEW</button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <div class="container">
+  <div class="well">
+      <div class="media">
+        <a class="pull-left" href="#">
+        <img class="media-object" src="http://placekitten.com/150/150">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Receta 1</h4>
+          <p class="text-right">By Francisco</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+Aliquam in felis sit amet augue.</p>
+          <ul class="list-inline list-unstyled">
+        <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
+            <li>|</li>
+            <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+            <li>|</li>
+            <li>
+               <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+            </li>
+            <li>|</li>
+            <li>
+              <span><i class="fa fa-facebook-square"></i></span>
+              <span><i class="fa fa-twitter-square"></i></span>
+              <span><i class="fa fa-google-plus-square"></i></span>
+            </li>
+      </ul>
+       </div>
+    </div>
+  </div>
+   <div class="well">
+      <div class="media">
+      <a class="pull-left" href="#">
+        <img class="media-object" src="http://placekitten.com/150/150">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Receta 2</h4>
+          <p class="text-right">By Anailuj</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+Aliquam in felis sit amet augue.</p>
+          <ul class="list-inline list-unstyled">
+        <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
+            <li>|</li>
+            <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+            <li>|</li>
+            <li>
+               <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+            </li>
+            <li>|</li>
+            <li>
+              <span><i class="fa fa-facebook-square"></i></span>
+              <span><i class="fa fa-twitter-square"></i></span>
+              <span><i class="fa fa-google-plus-square"></i></span>
+            </li>
+      </ul>
+       </div>
+    </div>
+  </div>
+<div class="well">
+      <div class="media">
+        <a class="pull-left" href="#">
+        <img class="media-object" src="http://placekitten.com/150/150">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Receta 3</h4>
+          <p class="text-right">By Francisco</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+Aliquam in felis sit amet augue.</p>
+          <ul class="list-inline list-unstyled">
+        <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
+            <li>|</li>
+            <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+            <li>|</li>
+            <li>
+               <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+            </li>
+            <li>|</li>
+            <li>
+              <span><i class="fa fa-facebook-square"></i></span>
+              <span><i class="fa fa-twitter-square"></i></span>
+              <span><i class="fa fa-google-plus-square"></i></span>
+            </li>
+      </ul>
+       </div>
+    </div>
+  </div>
+  <div class="well">
+      <div class="media">
+        <a class="pull-left" href="#">
+        <img class="media-object" src="http://placekitten.com/150/150">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Receta 4</h4>
+          <p class="text-right">By Francisco</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+Aliquam in felis sit amet augue.</p>
+          <ul class="list-inline list-unstyled">
+        <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
+            <li>|</li>
+            <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+            <li>|</li>
+            <li>
+               <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+            </li>
+            <li>|</li>
+            <li>
+              <span><i class="fa fa-facebook-square"></i></span>
+              <span><i class="fa fa-twitter-square"></i></span>
+              <span><i class="fa fa-google-plus-square"></i></span>
+            </li>
+      </ul>
+       </div>
+    </div>
+  </div>
+  <div class="well">
+      <div class="media">
+        <a class="pull-left" href="#">
+        <img class="media-object" src="http://placekitten.com/150/150">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Receta 5</h4>
+          <p class="text-right">By Francisco</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+Aliquam in felis sit amet augue.</p>
+          <ul class="list-inline list-unstyled">
+        <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
+            <li>|</li>
+            <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
+            <li>|</li>
+            <li>
+               <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+            </li>
+            <li>|</li>
+            <li>
+              <span><i class="fa fa-facebook-square"></i></span>
+              <span><i class="fa fa-twitter-square"></i></span>
+              <span><i class="fa fa-google-plus-square"></i></span>
+            </li>
+      </ul>
+       </div>
+    </div>
+  </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
